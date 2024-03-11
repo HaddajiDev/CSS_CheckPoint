@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+body{
+    margin: 0;
+    background-color: chocolate;
+}
+
+.Img img{
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+.text-container {
+    text-align: center;
+}
+
+.text-container h2{
+    display: inline-block;
+    font-size: 90px;
+    opacity: 0;
+    color: white;
+    position: absolute;
+    text-align: center;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    font-family: "Madimi One", sans-serif;
+    width: 20%;
+}
+
+
+/* Title page_1 */
+.text-container .Text_1 h2 {
+    transform: translateX(-100%);    
+    top: 30%;
+    left: 2%;
+}
+/* Description page_1 */
+.text-container .Text_1 .S_1 {
+    font-family:'Courier New', Courier, monospace !important;
+    transform: translateX(-100%);    
+    top: 70%;
+    left: 30%;
+    font-size: 35px;
+}
+/* Solde page_1 */
+.text-container .Text_1 .V_1 {
+    font-family:'Courier New', Courier, monospace !important;
+    transform: translateX(-100%);
+    top: 70%;
+    left: 50%;
+    font-size: 35px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+    background-color: yellow;
+    border: 2px solid none; 
+    border-radius: 50%;
+}
+
+
+
+/* Title page_2 */
+.text-container .Text_2 h2{
+    transform: translateX(-100%);    
+    top: 15%;
+    right: 10%;
+    font-size: 120px;
+    margin-top: 1400px;       
+}
+/* Description page_2 */
+.text-container .Text_2 .S_2 {
+    font-family:'Courier New', Courier, monospace !important;
+    transform: translateX(-100%);    
+    top: 60%;
+    left: 85%;
+    font-size: 35px;
+}
+
+
+
+/* Title page_3 */
+.text-container .Text_3 h2{
+    transform: translateX(-100%);
+    top: -150px;
+    left: 2%;
+    font-size: 100px;
+    margin-top: 2800px;
+    width: 35%;
+}
+/* Description page_3 */
+.text-container .Text_3 .S_3 {
+    font-family:'Courier New', Courier, monospace !important;
+    transform: translateX(-100%);    
+    top: 30%;
+    left: 27%;
+    font-size: 35px;
+    width: 20%;
+    
+}
+
+
+
+/* Title page_4 */
+.text-container .Text_4 h2{
+    transform: translateX(-100%);    
+    top: -20%;
+    right: 1%;
+    font-size: 100px;
+    margin-top: 4200px;  
+    width: 40%;
+}
+/* Description page_4 */
+.text-container .Text_4 .S_4 {
+    font-family:'Courier New', Courier, monospace !important;
+    transform: translateX(-100%);    
+    top: 30%;
+    left: 95%;
+    font-size: 35px;
+    width: 30%;
+}
+
+/* Solde page_4 */
+.text-container .Text_4 .V_2 {
+    font-family:'Courier New', Courier, monospace !important;
+    transform: translateX(-100%);
+    top: -35%;
+    left: 57%;
+    font-size: 35px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+    background-color: yellow;
+    border: 2px solid none; 
+    border-radius: 50%;
+}
+
+
+.navbar{    
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background-color: chocolate;
+    height: fit-content;
+    padding-left: 40%;
+    order: 10;
+    
+}
+.List{
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.List li{
+    float: left;
+}
+
+.List li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: "Madimi One", sans-serif;
+    font-size: 25px;
+    &:hover{
+        background-color: green;
+    }
+}
+.navbar .Title{
+    font-family: "Madimi One", sans-serif;
+    text-align: left;
+}
+
+.navbar .Table{
+    width: 70%;    
+    margin-left: -10%;
+}
+
+
+.footer{
+    background-color: chocolate;
+}
+.footer table{
+    width: 20%;
+    align-content: center;    
+    margin: 0px auto; 
+}
+
+.footer a{
+    text-decoration: none;
+    font-size: 20px
+}
+
+.footer img{
+    width: 35px;    
+}
+
+.footer td{
+    text-align: center; 
+    vertical-align: middle;
+}
+
+.footer p{
+    font-family: "Madimi One", sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+.text-container h2.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
